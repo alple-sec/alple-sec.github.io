@@ -1,89 +1,58 @@
-# WhatATheme
 markdown: kramdown
-
-# URL of the Site
-url: ''
-# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: 
-
-# Title of the Site
-title: What A Theme
-# Description of the Site
-description: A customizable Jekyll portfolio theme
-# URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
-# Keywords of the Site
-site-keywords: Site, Template, Theme
-# URL for the Image of custom Favicon
-favicon-url: 
-
-# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
-
-# Social Media and Contact
-# If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
-
-# Google Analytics
-google-analytics: UA-163806439-1
-
-# Disqus
-disqus-shortname: thedevslot
-
-# Name of the Author
-author-name: TheDevsLot
-# URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
-# 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
-# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
-
-# SASS
+url: 'https://alple-sec.github.io'
+baseurl: null
+title: Alple
+description: Accessible Security & Privacy
+site-image: /alple-sec.github.io/assets/images/meta.jpg
+site-keywords: 'Cybersecurity, Blog, Privacy'
+favicon-url: >-
+  https://github.com/alple-sec/alple-sec.github.io/blob/master/assets/images/smallPhoenix.png.png?raw=true
+heroimage: >-
+  https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+email: info@alple.xyz
+facebook_username: null
+twitter_username: alple-sec
+instagram_username: null
+linkedin_username: null
+github_username: alple-sec
+youtube_channel_id: null
+reddit_username: null
+behance_username: null
+dribbble_username: null
+spotify_username: null
+google-analytics: G-Q0CTE2QPWJ
+disqus-shortname: null
+author-name: Alple
+author-image: >-
+  https://github.com/alple-sec/alple-sec.github.io/blob/master/assets/images/phoenix.png.png?raw=true
+author-about: >-
+  Hey! I'm a full-time student, doing all things Cybersecurity and web design. I
+  also write about online security and privacy and cover weekly IT news. If that
+  interests you, check out my blog! If you have some questions, feel free to
+  message me on discord!
+author-url: 'https://github.com/alple-sec/'
 sass:
   sass_dir: _sass
   style: compressed
-
-# Build settings
 plugins:
   - jekyll-admin
   - jekyll-feed
-
-# Permalink
-permalink: "blog/:title"
-
-# Compress
+permalink: 'blog/:title'
 compress_html:
   clippings: all
-
-# Defaults
 defaults:
-  -
-    scope:
-      type: 'posts'
+  - scope:
+      type: posts
     values:
       layout: post
-      post-image: ""
-      description: ""
+      post-image: ''
+      description: ''
       tags:
-        - ""
-  -
-    scope:
-      type: 'pages'
+        - ''
+  - scope:
+      type: pages
     values:
       layout: page
-
-# Exclude
 exclude:
   - .sass-cache/
   - .jekyll-cache/
