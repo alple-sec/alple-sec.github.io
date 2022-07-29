@@ -6,7 +6,7 @@ description: Accessible Security & Privacy
 site-image: /alple-sec.github.io/assets/images/meta.jpg
 site-keywords: 'Cybersecurity, Blog, Privacy'
 favicon-url: >-
-  https://github.com/alple-sec/alple-sec.github.io/blob/master/assets/images/smallPhoenix.png.png?raw=true
+  https://github.com/alple-sec/alple-sec.github.io/blob/master/assets/images/smallPhoenix.png?raw=true
 heroimage: >-
   https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
 email: info@alple.xyz
@@ -24,7 +24,7 @@ google-analytics: G-Q0CTE2QPWJ
 disqus-shortname: null
 author-name: Alple
 author-image: >-
-  https://github.com/alple-sec/alple-sec.github.io/blob/master/assets/images/phoenix.png.png?raw=true
+  https://github.com/alple-sec/alple-sec.github.io/blob/master/assets/images/phoenix.png?raw=true
 author-about: >-
   Hey! I'm a full-time student, doing all things Cybersecurity and web design. I
   also write about online security and privacy and cover weekly IT news. If that
